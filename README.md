@@ -72,5 +72,5 @@ sudo pip install --editable .
 直接如下命令即可，非常简单易用：
 ```bash
 qpatch [program name]
-//例如目标程序名为pwn，则运行命令：qpatch pwn，然后根据列表选择即可
 ```
+例如目标程序名为pwn，则运行命令：qpatch pwn，然后根据列表选择即可
