@@ -10,7 +10,7 @@ qpatch使用起来非常方便，他会自动探测你已经有点libc，并以�
 ## Deploy
 
 由于这个小工具依赖的核心依然是 `patchelf` 和 `glibc-all-in-one` ，能让它以命令行工具的身份出现，还少不了python中的 `click` 模块。
-因此你应该有如下东西 `patchelf`   `glibc-all-in-one` ，如果有的话请直接看下面的 [install patchup](#install-patchup) 部分，如果没有的话下文就是相关部署。
+因此你应该有如下东西 `patchelf`   `glibc-all-in-one` ，如果有的话请直接看下面的 [install qpatch](#install-qpatch) 部分，如果没有的话下文就是相关部署。
 
 ### install patchelf
 
@@ -55,7 +55,7 @@ chmod +x  extract  update_list download
 
 cd 到上级目录
 
-## install patchup
+## install qpatch
 ok，假设你现在有了 `patchelf` 和 `glibc-all-in-one`  那么你就可以输入以下命令来安装 `qpatch` 这个小工具了 
 ```bash
 git clone https://github.com/p](https://github.com/Survive2/qpatch.git
